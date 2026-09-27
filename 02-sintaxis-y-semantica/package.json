@@ -1,0 +1,2 @@
+{ "name": "sintaxis-y-semantica", "type": "module", "private": true,
+  "scripts": { "start": "node src/demo.js" } }

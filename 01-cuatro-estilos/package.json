@@ -1,0 +1,6 @@
+{
+  "name": "cuatro-estilos",
+  "type": "module",
+  "private": true,
+  "scripts": { "start": "node src/Tarea1.js" }
+}
