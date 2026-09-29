@@ -25,5 +25,5 @@ export function normalizarDestino(destino: string): string {
 // La regla dice "a partir de 3 embarques"; el código exige más de 3.
 // No lo detecta ni el compilador ni el linter: solo la prueba.
 export function aplicaConsolidado(cantidad: number): boolean {
-  return cantidad > 3;
+  return cantidad >= 3;
 }
