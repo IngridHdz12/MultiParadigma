@@ -17,9 +17,8 @@ export function pesoTotal(embarques: Embarque[], minimo: number): number {
 // Usa == en lugar de ===, y reasigna un parámetro.
 // Lo detecta: npm run lint
 export function normalizarDestino(destino: string): string {
-  if (destino == null) return 'desconocido';
-  destino = destino.trim().toLowerCase();
-  return destino;
+  if (destino === null) return 'desconocido';
+  return destino.trim().toLowerCase();;
 } 
 
 // DEFECTO 3 — de COMPORTAMIENTO.
